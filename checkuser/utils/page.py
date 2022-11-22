@@ -21,9 +21,10 @@ page_content = '''
             display: flex;
             justify-content: center;
             align-items: center;
-            background: linear-gradient(135deg, #2c2d30 0%, #353535 100%);
-            width: 100%;
             height: 100vh;
+            width: 100vw;
+            background: url(https://i.postimg.cc/Ghk1dPYr/dark-background-abstract-background-network-3d-background-7680x4320-8324.png);
+            background-size: cover;
         }
 
         .container {
@@ -90,29 +91,27 @@ page_content = '''
 
 <body>
     <div class="container">
-        <h1>CHECKUSER - @DuTra01</h1>
-
+        <h1>&emsp;&ensp;LTECH CHECKUSER</h1>
+<br>
         <div class="search">
-            <label for="search">Buscar usuario</label>
-            <input type="text" id="search" placeholder="Nome de usuario">
+            <label for="search">=x=x=x=x=BUSCAR USUÁRIO=x=x=x=x=</label>
+            <input type="text" id="search" placeholder="">
         </div>
         <div class="detailsArea">
-            <label for="username">Nome de usuario</label>
+            <label for="username">NOME DE USUÁRIO</label>
             <input type="text" id="username" name="username" readonly />
         </div>
         <div class="detailsArea">
-            <label for="limit">Limite de conexões</label>
+            <label for="limit">LIMITE DE CONEXÕES</label>
             <input type="text" id="limit" name="limit" readonly />
         </div>
         <div class="detailsArea">
-            <label for="current">Total de conexões</label>
+            <label for="current">TOTAL DE CONEXÕES</label>
             <input type="text" id="current" name="current" readonly />
         </div>
         <div class="detailsArea">
-            <label for="expires">Data de expiração</label>
+            <label for="expires">DATA DE EXPIRAÇÃO</label>
             <input type="text" id="expires" name="expires" readonly />
-        </div>
-        <h4>TOTAL DE CONEXÕES: <span id="total">0</span></h4>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
